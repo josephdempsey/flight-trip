@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "flighttripad561c09ad561c09": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

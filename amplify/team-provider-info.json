@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flighttrip-dev-184624-authRole",
+      "UnauthRoleArn": "arn:aws:iam::363321665306:role/amplify-flighttrip-dev-184624-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::363321665306:role/amplify-flighttrip-dev-184624-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-flighttrip-dev-184624-deployment",
+      "UnauthRoleName": "amplify-flighttrip-dev-184624-unauthRole",
+      "StackName": "amplify-flighttrip-dev-184624",
+      "StackId": "arn:aws:cloudformation:eu-west-1:363321665306:stack/amplify-flighttrip-dev-184624/9bba2950-ce01-11eb-96c2-06a1d1682bdd",
+      "AmplifyAppId": "d5srbfzqshpa8"
+    },
+    "categories": {
+      "auth": {
+        "flighttripad561c09ad561c09": {}
+      }
+    }
+  }
+}
