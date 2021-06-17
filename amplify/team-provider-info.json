@@ -1,20 +1,26 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-flighttrip-dev-152829-authRole",
-      "UnauthRoleArn": "arn:aws:iam::363321665306:role/amplify-flighttrip-dev-152829-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::363321665306:role/amplify-flighttrip-dev-152829-authRole",
-      "Region": "eu-west-1",
-      "DeploymentBucketName": "amplify-flighttrip-dev-152829-deployment",
-      "UnauthRoleName": "amplify-flighttrip-dev-152829-unauthRole",
-      "StackName": "amplify-flighttrip-dev-152829",
-      "StackId": "arn:aws:cloudformation:eu-west-1:363321665306:stack/amplify-flighttrip-dev-152829/2108de00-ceaf-11eb-90d5-068e2e279083",
-      "AmplifyAppId": "d59nucii0c9xa"
-    },
-    "categories": {
-      "auth": {
-        "flighttripad561c09ad561c09": {}
-      }
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-flighttrip-dev-152829-authRole",
+            "UnauthRoleArn": "arn:aws:iam::363321665306:role/amplify-flighttrip-dev-152829-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::363321665306:role/amplify-flighttrip-dev-152829-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-flighttrip-dev-152829-deployment",
+            "UnauthRoleName": "amplify-flighttrip-dev-152829-unauthRole",
+            "StackName": "amplify-flighttrip-dev-152829",
+            "StackId": "arn:aws:cloudformation:eu-west-1:363321665306:stack/amplify-flighttrip-dev-152829/2108de00-ceaf-11eb-90d5-068e2e279083",
+            "AmplifyAppId": "d59nucii0c9xa"
+        },
+        "categories": {
+            "auth": {
+                "flighttripad561c09ad561c09": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d59nucii0c9xa",
+                    "type": "manual"
+                }
+            }
+        }
     }
-  }
 }
