@@ -168,6 +168,23 @@ query MyQuery {
   }
 }
 
+
+mutation {
+  processBooking(input:{
+     paymentToken: "adasdasd",
+     bookingOutboundFlightId: "1818900a-af0d-4181-8b35-7be94e689167"
+  }) {
+    id
+		outboundFlight {
+      departureDate
+      arrivalDate
+      id
+      departureCity
+      arrivalCity
+    }
+  }
+}
+
 4242424242424242
 08 / 32
 123
