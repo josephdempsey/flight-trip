@@ -1,0 +1,8 @@
+{
+    "CollectPayment": {
+        "PAYMENT_API_URL": "UPDATE/prod/capture"
+    },
+    "RefundPayment": {
+        "PAYMENT_API_URL": "UPDATE/prod/refund"
+    }
+}

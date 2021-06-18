@@ -20,3 +20,6 @@ amplifytools.xcconfig
 .secret-*
 new_user_credentials.csv
 amplify.yml
+*.aws-sam/
+artifacts/
+src/frontend/.env

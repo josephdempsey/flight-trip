@@ -1,0 +1,20 @@
+{
+    "ConfirmBooking": {
+        "BOOKING_TABLE_NAME": "Booking-UPDATE"
+    },
+    "CancelBooking": {
+        "BOOKING_TABLE_NAME": "Booking-UPDATE"
+    },
+    "ReserveBooking": {
+        "BOOKING_TABLE_NAME": "Booking-UPDATE"
+    },
+    "ReserveFlightSeat": {
+        "FLIGHT_TABLE_NAME": "Flight-UPDATE"
+    },
+    "ReleaseFlightSeat": {
+        "FLIGHT_TABLE_NAME": "Flight-UPDATE"
+    },
+    "NotifyBooking": {
+        "BOOKING_TOPIC": "arn:aws:sns:eu-west-1:231436140809:UPDATE"
+    }
+}

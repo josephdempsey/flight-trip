@@ -64,6 +64,9 @@ mutation flight3 {
     }
 }
 
+
+1818900a-af0d-4181-8b35-7be94e689167
+
 mutation flight4 {
     createFlight(input:{
         departureDate: "2021-07-10T17:00+0000",
@@ -126,13 +129,19 @@ query {
 ###
 
 mutation {
-  # auth user must be Admin
   createBooking(input:{
      status:UNCONFIRMED,
      paymentToken: "adasdasd",
-     bookingOutboundFlightId: "flight-UUID-here"
+     bookingOutboundFlightId: "1818900a-af0d-4181-8b35-7be94e689167"
   }) {
     id
+		outboundFlight {
+      departureDate
+      arrivalDate
+      id
+      departureCity
+      arrivalCity
+    }
   }
 }
 
@@ -158,3 +167,7 @@ query MyQuery {
     }
   }
 }
+
+4242424242424242
+08 / 32
+123
